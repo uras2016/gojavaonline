@@ -16,7 +16,7 @@ public class Exception {
             System.out.println("Your age is:" + age);
         } catch (NumberFormatException ex){
         System.out.println("Age should be an integer");
-        }
+         }
 
     }
 }
