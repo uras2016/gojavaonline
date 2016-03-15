@@ -1,4 +1,4 @@
-package Module6.File;
+package module6.File;
 
 
 public class TextFile extends File {

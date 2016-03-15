@@ -1,4 +1,4 @@
-package Module6;
+package module6;
 
 
 public class NegativeAgeException extends Exception {

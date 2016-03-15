@@ -1,4 +1,4 @@
-package Module6.Flower;
+package module6.Flower;
 
 public class Aster extends Flower{
 

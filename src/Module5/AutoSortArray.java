@@ -1,4 +1,4 @@
-package Module5;
+package module5;
 
 
 import java.util.Arrays;
