@@ -12,7 +12,7 @@ public class ExceptionExample {
         final String userInput = scanner.next();               //scanner.nextInt();
 
         try {
-            final int age = Integer.parseInt(userInput);
+            final int age = Integer.parseInt(userInput);// преобразование строки в число
             if (age <0) {
                 throw new NegativeAgeException(age);
 
