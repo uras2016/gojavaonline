@@ -1,14 +1,14 @@
 package Module6.File;
 
 
-public class IllegalStateException extends Exception {
+public class PositiveException extends Exception {
 
         private int quantity;
 
     public int getQuantity() {
         return quantity;
     }
-    public IllegalStateException(int quantity){
+    public PositiveException(int quantity){
 this.quantity=quantity;
 
     }
