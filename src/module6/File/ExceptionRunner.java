@@ -1,4 +1,4 @@
-package module6.File;
+package Module6.File;
 
 
 import java.util.InputMismatchException;
@@ -20,13 +20,13 @@ public class ExceptionRunner {
             System.out.println("Quantity:" + quantity);
         } catch (PositiveException e){
             System.out.println("Please enter a positive value!");}
-          catch (InputMismatchException ex){
-              System.out.println("Mistake! Only an integer is allowed");
-          }
-
-            }
-
-
-
+        catch (InputMismatchException ex){
+            System.out.println("Mistake! Only an integer is allowed");
+        }
 
     }
+
+
+
+
+}
