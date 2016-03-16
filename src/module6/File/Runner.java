@@ -1,6 +1,7 @@
 package module6.File;
 
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Runner {
@@ -14,10 +15,14 @@ public class Runner {
 
             if (quantity < 0) {
                 throw new PositiveException(quantity);
+
             }
             System.out.println("Quantity:" + quantity);
         } catch (PositiveException e){
             System.out.println("Please enter a positive value!");}
+          catch (InputMismatchException ex){
+              System.out.println("Mistake! Only an integer is allowed");
+          }
 
             }
 
