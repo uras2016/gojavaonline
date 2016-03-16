@@ -9,7 +9,7 @@ public class PositiveException extends Exception {
         return quantity;
     }
     public PositiveException(int quantity){
-this.quantity=quantity;
+    this.quantity=quantity;
 
     }
 }
