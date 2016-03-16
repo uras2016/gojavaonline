@@ -4,7 +4,7 @@ package module6.File;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Runner {
+public class ExceptionRunner {
     public static void main(String[] args) throws PositiveException {
         System.out.println("Please input quantity of files:");
         final Scanner scanner = new Scanner(System.in);
