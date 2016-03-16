@@ -21,8 +21,8 @@ public class ExceptionRunner {
         } catch (PositiveException e){
             System.out.println("Please enter a positive value!");}
         catch (InputMismatchException ex){
-            System.out.println("Mistake! Only an integer is allowed");
-        }
+            System.out.println("Mistake! Only an integer is allowed!!!");
+         }
 
     }
 
