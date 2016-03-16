@@ -1,4 +1,4 @@
-package module6.File;
+package Module6.File;
 
 
 public class ImageFile extends File {
