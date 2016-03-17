@@ -1,14 +1,22 @@
 package Module6.musicalInstrument;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class MusicShop {
 
 
+    public List<MusicalInstrument> instruments = new ArrayList<>();
+    MusicShop a = new MusicShop();
+    MusicShop myShop = new MusicShop("Shop", instruments);
     private List<Trumpet> Trumpet;
     private List<Piano> Piano;
     private List<Guitar> Guitar;
+
+    public MusicShop() {
+
+    }
 
     public MusicShop(List<Trumpet> trumpet, List<Piano> piano, List<Guitar> guitar) {
         Trumpet = trumpet;
@@ -16,22 +24,27 @@ public class MusicShop {
         Guitar = guitar;
     }
 
-    public static void main(String[] args) {
+
+    public MusicShop(String Myshop, List<MusicalInstrument> instruments) {
 
     }
 
-    public List<Module6.musicalInstrument.Trumpet> getTrumpet() {
-        return Trumpet;
-    }
+    Guitar()
 
-    public List<Module6.musicalInstrument.Piano> getPiano() {
-        return Piano;
-    }
+    instruments.add(new
 
-    public List<Module6.musicalInstrument.Guitar> getGuitar() {
-        return Guitar;
-    }
+    Piano()
+
+    );
+    instruments.add(new
 
     public void prepareInstruments(Map<String, Integer> order) {
     }
+
+    );
+
+
+}
+
+
 }
