@@ -14,6 +14,10 @@ public class MusicShop {
         Guitar = guitar;
     }
 
+    public static void main(String[] args) {
+
+    }
+
     public List<Module6.Musicalinstrument.Trumpet> getTrumpet() {
         return Trumpet;
     }
@@ -26,8 +30,6 @@ public class MusicShop {
         return Guitar;
     }
 
-    public  void prepareInstruments(Map <String, Integer> order){
+    public void prepareInstruments(Map<String, Integer> order) {
     }
-
-
 }
