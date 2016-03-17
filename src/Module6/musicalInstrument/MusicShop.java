@@ -5,46 +5,41 @@ import java.util.List;
 import java.util.Map;
 
 public class MusicShop {
+    List<Guitar> guitars;
+    List<Piano> pianos;
+    List<Trumpet> trumpets;
 
 
-    public List<MusicalInstrument> instruments = new ArrayList<>();
-    MusicShop a = new MusicShop();
-    MusicShop myShop = new MusicShop("Shop", instruments);
-    private List<Trumpet> Trumpet;
-    private List<Piano> Piano;
-    private List<Guitar> Guitar;
-
-    public MusicShop() {
-
+    // getter & setter
+    public List<Guitar> getGuitars() {
+        return guitars;
     }
 
-    public MusicShop(List<Trumpet> trumpet, List<Piano> piano, List<Guitar> guitar) {
-        Trumpet = trumpet;
-        Piano = piano;
-        Guitar = guitar;
+    public void setGuitars(List<Guitar> guitars) {
+        this.guitars = guitars;
     }
 
-
-    public MusicShop(String Myshop, List<MusicalInstrument> instruments) {
-
+    public List<Piano> getPianos() {
+        return pianos;
     }
 
-    Guitar()
-
-    instruments.add(new
-
-    Piano()
-
-    );
-    instruments.add(new
-
-    public void prepareInstruments(Map<String, Integer> order) {
+    public void setPianos(List<Piano> pianos) {
+        this.pianos = pianos;
     }
 
-    );
+    public List<Trumpet> getTrumpets() {
+        return trumpets;
+    }
 
+    public void setTrumpets(List<Trumpet> trumpets) {
+        this.trumpets = trumpets;
+    }
+
+    @Override
+    public String toString() {
+        return "MusicShop{"+"guitars="+guitars.size()+"pianos="+pianos.size()+"trumpets="+trumpets.size()+"}";
+    }
 
 }
 
 
-}
