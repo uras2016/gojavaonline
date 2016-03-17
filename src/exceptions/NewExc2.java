@@ -13,7 +13,7 @@ public class NewExc2 {
         } catch (RuntimeException e) { // да, поэтому дальше не иде. Один try - один catch
             System.out.println(2);
         } catch (Exception e) { // не печатаем - не дошли
-            System.out.println(3);
+            System.out.println(3); // если ни в каком кеч не прописан ексепшин, то метод останавливаеться
         }
         System.out.println(4); //печатаем
 
