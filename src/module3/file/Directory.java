@@ -34,4 +34,6 @@ public class Directory {
     public void setTextFiles(List<TextFile> textFiles) {
         this.textFiles = textFiles;
     }
+
+
 }

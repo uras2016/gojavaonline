@@ -2,9 +2,30 @@ package module8.homewrok;
 
 
 public class Files {
-    String name;
-    int size;
+    @Override
+    public String toString() {
+        return "Files{" +
+                "name='" + name + '\'' +
+                ", size=" + size +
+                '}';
+    }
 
+    private String name;
+    private int size;
+
+    public Files(String name, int size) {
+        this.name = name;
+        this.size = size;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSize() {
+        return size;
+    }
     public void open(){
         System.out.println("Start");
 

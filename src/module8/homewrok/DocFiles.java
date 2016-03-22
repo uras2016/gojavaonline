@@ -3,6 +3,18 @@ package module8.homewrok;
 
 public class DocFiles extends Files {
 
-    public DocFiles() {
+    @Override
+    public String getName() {
+        return super.getName();
     }
+
+    @Override
+    public int getSize() {
+        return super.getSize();
+    }
+
+    public DocFiles(String name, int size) {
+        super(name, size);
+    }
+
 }
