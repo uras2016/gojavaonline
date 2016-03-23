@@ -29,19 +29,19 @@ public class Runners {
            System.out.println("Element " + "|" + i + "|" + bulkRequest.get(i) + "|");
        }
 
-        TreeMap <Integer, MusicFiles> albom = new TreeMap<Integer, MusicFiles>();
+        TreeMap <Integer, MusicFiles> album = new TreeMap<Integer, MusicFiles>();
 
-        albom.put(12, new MusicFiles("Aria", 45));
-        albom.put(98, new MusicFiles("Ballads", 14));
-        albom.put(4, new MusicFiles("Scorpions", 5));
-        albom.put(100, new MusicFiles("Poem", 20));
+        album.put(12, new MusicFiles("Aria", 45));
+        album.put(98, new MusicFiles("Ballads", 14));
+        album.put(4, new MusicFiles("Scorpions", 5));
+        album.put(100, new MusicFiles("Poem", 20));
 
 
-        System.out.println("Keys :" + albom.keySet() + albom.values());
+       // System.out.println("Keys :" + album.keySet() + album.values());
 
-        System.out.println(albom.size());
+        System.out.println(album.size());
 
-        for (Map.Entry<Integer, MusicFiles> entry : albom.entrySet()){
+        for (Map.Entry<Integer, MusicFiles> entry : album.entrySet()){
             System.out.println(entry.getKey() + "-" + entry.getValue());
         }
         }
