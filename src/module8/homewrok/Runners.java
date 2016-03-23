@@ -44,10 +44,8 @@ public class Runners {
         for (Map.Entry<Integer, MusicFiles> entry : album.entrySet()){
             System.out.println(entry.getKey() + "-" + entry.getValue());
         }
-        }
-
-
-        }
+    }
+}
 
 
 
