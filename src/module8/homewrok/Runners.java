@@ -43,9 +43,12 @@ public class Runners {
 
         System.out.println(album.size());
 
+       // String x = String.valueOf(album.values());
+        //System.out.println(x);
         for (Map.Entry<Integer, MusicFiles> entry : album.entrySet()){
             System.out.println(entry.getKey() + "-" + entry.getValue());
         }
+
     }
 }
 
