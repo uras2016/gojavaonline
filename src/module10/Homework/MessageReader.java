@@ -5,7 +5,9 @@ import java.io.*;
 
 public class MessageReader {
 
-           private void crypt(int index, int k) throws IOException{
+    public static void main(String[] args) throws IOException{
+
+
 
                FileReader in;
                FileWriter out;
@@ -14,12 +16,13 @@ public class MessageReader {
                    in = new FileReader("ExampleIn.rtf");
                    out = new FileWriter("ExampleOut.txt");
 
+
                }catch (FileNotFoundException e){
                    System.out.println("File no found");
 
                } catch (EOFException e){
                    System.out.println("Reached end of file");
-                   return;
+
                } catch (IOException e) {
                    e.printStackTrace();
                }
