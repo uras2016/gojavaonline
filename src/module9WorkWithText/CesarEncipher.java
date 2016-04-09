@@ -8,6 +8,11 @@ public class CesarEncipher {
     String out = "";
     int step =3;
 
+    @Override
+    public String toString() {
+        return out;
+    }
+
     public CesarEncipher(String in, boolean operation) {
         this.in = in;
         System.out.println("Caesar In: " + in);
@@ -17,7 +22,9 @@ public class CesarEncipher {
             else if (operation==false)
                 out+=((char)(in.codePointAt(i)-step));
         }
-        System.out.println("Caesar out: " + out);
+        String y = String.valueOf(out);
+        System.out.println("Caesar out: " + y);
     }
+
 }
 
