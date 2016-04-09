@@ -1,4 +1,4 @@
-package module5;
+package Module5;
 
 
 public class Array {

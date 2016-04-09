@@ -1,20 +1,18 @@
-package module5;
+package Module5;
 
-
-import java.util.Arrays;
 
 public class Hometask1 {
+
+    private static HometaskMethod hometaskMethod;
+
 
     public static void main(String[] args) {
         int[] intArray = {30, 8, 100, -3, 2, 300, 224};
 
-        Arrays.sort(intArray);
+        hometaskMethod = new HometaskMethod();
 
-        int a = intArray.length-1;
+        hometaskMethod.sorting(intArray);
 
 
-        System.out.println(intArray[0]);
-
-        System.out.println(intArray[a]);
     }
 }
