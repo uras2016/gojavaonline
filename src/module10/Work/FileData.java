@@ -11,7 +11,7 @@ public class FileData {
 
 
 
-            String file_name = "ExampleIn.rtf"; // переменная с адресом файла
+            String file_name = "ExampleIn.txt"; // переменная с адресом файла
 
             try {
 
@@ -37,9 +37,13 @@ public class FileData {
                 System.out.println(builder.append(t));*/
 
               //  }
+
+
             } catch (IOException e) {
                 System.out.println(e.getMessage());
             }
+
+
         }
 
     }

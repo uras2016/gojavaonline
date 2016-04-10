@@ -9,6 +9,7 @@ public class Fahrenheit {
         Scanner in = new Scanner(System.in);// создаем обьект Сканнер, System.in -ввод данных
 
         System.out.println("Температура по Фаренгейту:");
+
         temp = in.nextInt();
 
         temp = ((temp-32)*5)/9;

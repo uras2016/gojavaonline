@@ -15,7 +15,9 @@ public class Crypt {
 
             }
 
-        }System.out.println(" out: " + out);
+        }
+        String y = String.valueOf(out);
+        System.out.println("Caesar out: " + y);
 
 
     }

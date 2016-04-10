@@ -11,8 +11,8 @@ public class Hometask1 {
 
         hometaskMethod = new HometaskMethod();
 
-        hometaskMethod.sorting(intArray);
-
+        hometaskMethod.sortingMin(intArray);
+        hometaskMethod.sortingMax(intArray);
 
     }
 }

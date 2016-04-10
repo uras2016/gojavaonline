@@ -21,6 +21,6 @@ public class CesarEncipherTest {
 
 //        Assert.assertTrue(cesarEncipher.equals(expected));
 
-        Assert.assertEquals(expected, cesarEncipher);
+        Assert.assertEquals(expected, cesarEncipher.toString());
     }
 }
