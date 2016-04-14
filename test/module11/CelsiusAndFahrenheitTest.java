@@ -22,7 +22,7 @@ public class CelsiusAndFahrenheitTest {
         final double result = celsiusAndFahrenheit.celsiusToFahrenheit(a);
 
 
-        Assert.assertEquals("122.0", Double.toString(result));
+        Assert.assertEquals(122.0, result, 0.1);
 
     }
     @Test(timeout = 3000)
@@ -31,7 +31,7 @@ public class CelsiusAndFahrenheitTest {
         final double a = 350;
         final double result = celsiusAndFahrenheit.fahrenheitToCelsius(a);
 
-        Assert.assertEquals("176.66666666666666", Double.toString(result));
+        Assert.assertEquals(176.7, result, 0.1);
 
     }
 
